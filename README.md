@@ -1,6 +1,5 @@
 # AfriStore-Contracts
 
-> **🟠 Priority:** High | **Difficulty:** Medium | **Estimated Effort:** 1–2 days
 
 The core Soroban smart contract for the [Afristore Marketplace](https://github.com/Afristore/marketplace) — extracted from the monorepo into its own dedicated repository.
 
@@ -14,7 +13,7 @@ This contract implements:
 
 ---
 
-## 🚀 Getting Started (once code is populated)
+##  Getting Started (once code is populated)
 
 ```bash
 # Build the contract WASM
@@ -32,7 +31,7 @@ stellar contract deploy --wasm target/wasm32-unknown-unknown/release/soroban_mar
 
 ---
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 - Rust (stable)
 - `wasm32-unknown-unknown` target: `rustup target add wasm32-unknown-unknown`
@@ -40,7 +39,7 @@ stellar contract deploy --wasm target/wasm32-unknown-unknown/release/soroban_mar
 
 ---
 
-## 📋 Source Location (Monorepo)
+##  Source Location (Monorepo)
 
 This repository is being extracted from [`afristore/contracts/soroban-marketplace/`](https://github.com/Afristore/marketplace/tree/master/contracts/soroban-marketplace) in the main monorepo.
 
@@ -48,7 +47,7 @@ This repository is being extracted from [`afristore/contracts/soroban-marketplac
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork this repository
 2. Create a feature branch: `git checkout -b feat/your-feature`
@@ -61,7 +60,7 @@ This repository is being extracted from [`afristore/contracts/soroban-marketplac
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - Rust + `soroban-sdk v25.3.0`
 - Stellar / Soroban smart contract platform
